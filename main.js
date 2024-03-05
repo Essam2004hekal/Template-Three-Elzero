@@ -78,31 +78,31 @@ const myButton7 = document.getElementById("mybtn7");
 
 
 myButton.addEventListener("click", function() {
-  myImg.src = "../Zero-three-temp/imgs/video-preview.jpg";
+  myImg.src = "imgs/video-preview.jpg";
 });
 
 myButton2.addEventListener("click", function() {
-  myImg.src = "../Zero-three-temp/imgs/image5.jpg";
+  myImg.src = "imgs/image5.jpg";
 });
 
 myButton3.addEventListener("click", function() {
-  myImg.src = "../Zero-three-temp/imgs/image3.webp";
+  myImg.src = "imgs/image3.webp";
 });
 
 myButton4.addEventListener("click", function() {
-  myImg.src = "../Zero-three-temp/imgs/image4.jpg";
+  myImg.src = "imgs/image4.jpg";
 });
 
 myButton5.addEventListener("click", function() {
-  myImg.src = "../Zero-three-temp/imgs/image2.jpg";
+  myImg.src = "imgs/image2.jpg";
 });
 
 myButton6.addEventListener("click", function() {
-  myImg.src = "../Zero-three-temp/imgs/image6.jpg";
+  myImg.src = "imgs/image6.jpg";
 });
 
 myButton7.addEventListener("click", function() {
-  myImg.src = "../Zero-three-temp/imgs/image7.jpg";
+  myImg.src = "imgs/image7.jpg";
 });
 
 
