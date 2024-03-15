@@ -68,42 +68,24 @@ function startCount(el) {
 
 // Change image in vid section
 const myImg = document.getElementById("myImg");
-const myButton = document.getElementById("mybtn1");
-const myButton2 = document.getElementById("mybtn2");
-const myButton3 = document.getElementById("mybtn3");
-const myButton4 = document.getElementById("mybtn4");
-const myButton5 = document.getElementById("mybtn5");
-const myButton6 = document.getElementById("mybtn6");
-const myButton7 = document.getElementById("mybtn7");
+let li = document.querySelectorAll('#playlist>li');
+let images=[
+  'imgs/video-preview.jpg',
+  'imgs/image5.jpg',
+  'imgs/image3.webp',
+  'imgs/image4.jpg',
+  'imgs/image2.jpg',
+  'imgs/image6.jpg',
+  'imgs/image7.jpg',
+]
 
+li.forEach((item,index)=>{
+  item.addEventListener('click',function(e){
+    console.log(index);
+    myImg.src=images[index]
+  })
+})
 
-myButton.addEventListener("click", function() {
-  myImg.src = "imgs/video-preview.jpg";
-});
-
-myButton2.addEventListener("click", function() {
-  myImg.src = "imgs/image5.jpg";
-});
-
-myButton3.addEventListener("click", function() {
-  myImg.src = "imgs/image3.webp";
-});
-
-myButton4.addEventListener("click", function() {
-  myImg.src = "imgs/image4.jpg";
-});
-
-myButton5.addEventListener("click", function() {
-  myImg.src = "imgs/image2.jpg";
-});
-
-myButton6.addEventListener("click", function() {
-  myImg.src = "imgs/image6.jpg";
-});
-
-myButton7.addEventListener("click", function() {
-  myImg.src = "imgs/image7.jpg";
-});
 
 
 
